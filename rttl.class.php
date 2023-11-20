@@ -45,8 +45,8 @@ function getRttl($title='',$tn=-1){
 		// try to get title from meta event
 		if ($title==''&&$msg[1]=='Meta'&&$msg[2]=='TrkName') {
 			$title=trim($msg[3]);
-			if ($title{0}=='"') $title=substr($title, 1);
-			if ($title{strlen($title)-1}=='"') $title=substr($title, 0, -1);
+			if ($title[0]=='"') $title=substr($title, 1);
+			if ($title[strlen($title)-1]=='"') $title=substr($title, 0, -1);
 		}
 
 		if ($msg[1]=='On' && $msg[4]!='v=0'){
