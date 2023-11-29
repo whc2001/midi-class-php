@@ -1,4 +1,4 @@
-## NOTE: This fork and deployment is mainly for my own usage of MID2RTTL for ESPHome's [RTTTL Buzzer](https://esphome.io/components/rtttl) component. In principle there won't be any active development or fix.
+## NOTE: This fork and deployment is mainly for my own usage of [MID2RTTL](https://midiclassphp.haoc.wang/mid2rttl.php) for ESPHome's [RTTTL Buzzer](https://esphome.io/components/rtttl) component. In principle there won't be any active development or fix.
 
 # MIDI CLASS
 
