@@ -10,13 +10,18 @@ $save_dir = 'tmp/sess_'.session_id().'/';
 //clean up, remove files belonging to expired session
 $sessions = array();
 $handle = opendir (session_save_path());
-while (false !== ($file = readdir ($handle)))
-	if ($file!='.' && $file!='..') $sessions[] = $file;
-closedir($handle);
+if (false !== $handle){
+	while (false !== ($file = readdir ($handle)))
+		if ($file!='.' && $file!='..') $sessions[] = $file;
+	closedir($handle);
+}
+
 $handle = opendir('tmp/');
-while (false !== ($dir = readdir ($handle)))
-	if (is_dir($dir) && $dir!='.' && $dir!='..' && !in_array($dir,$sessions)) rm("tmp/$dir/");
-closedir($handle);
+if (false !== $handle){
+	while (false !== ($dir = readdir ($handle)))
+		if (is_dir($dir) && $dir!='.' && $dir!='..' && !in_array($dir,$sessions)) rm("tmp/$dir/");
+	closedir($handle);
+}
 
 // removes non-empty dir
 function rm($dir){
