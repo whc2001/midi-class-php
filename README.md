@@ -1,3 +1,5 @@
+## NOTE: This fork and deployment is mainly for my own usage of MID2RTTL for ESPHome's [RTTTL Buzzer](https://esphome.io/components/rtttl) component. In principle there won't be any active development or fix.
+
 # MIDI CLASS
 
 ## Description
@@ -75,14 +77,14 @@ demonstrates RTTL ringtone to binary MIDI file conversion (uses the RTTL extensi
 - <a href="http://www.midiox.com/">MIDI-OX</a>
 - <a href="http://www.beatnik.com/">Beatnik</a>
 
-## [Online Tools](http://flashmusicgames.com/midi/)
+## [Online Tools](https://midiclassphp.haoc.wang/)
 
-- <a href="http://flashmusicgames.com/midi/mid2txt.php"><b>midi</b> to txt converter</a> - Binary <b>midi</b> file to text (MF2T/T2MF format) conversion
-- <a href="http://flashmusicgames.com/midi/txt2mid.php">txt to <b>midi</b> converter</a> - Text (MF2T/T2MF format) to binary <b>midi</b> file conversion
-- <a href="http://flashmusicgames.com/midi/mid2xml.php"><b>midi</b> to xml converter</a> - Binary <b>midi</b> file to <b>midi</b> XML conversion
-- <a href="http://flashmusicgames.com/midi/xml2mid.php">xml to <b>midi</b>  converter</a> - <b>midi</b> XML to binary <b>midi</b> file conversion
-- <a href="http://flashmusicgames.com/midi/mid2rttl.php"><b>midi</b> to rttl converter</a> - Simple binary <b>midi</b> file to RTTL ringtone conversion
-- <a href="http://flashmusicgames.com/midi/rttl2mid.php">rttl to <b>midi</b> converter</a> - RTTL ringtone to binary <b>midi</b> file conversion
+- <a href="https://midiclassphp.haoc.wang/mid2txt.php"><b>midi</b> to txt converter</a> - Binary <b>midi</b> file to text (MF2T/T2MF format) conversion
+- <a href="https://midiclassphp.haoc.wang/txt2mid.php">txt to <b>midi</b> converter</a> - Text (MF2T/T2MF format) to binary <b>midi</b> file conversion
+- <a href="https://midiclassphp.haoc.wang/mid2xml.php"><b>midi</b> to xml converter</a> - Binary <b>midi</b> file to <b>midi</b> XML conversion
+- <a href="https://midiclassphp.haoc.wang/xml2mid.php">xml to <b>midi</b>  converter</a> - <b>midi</b> XML to binary <b>midi</b> file conversion
+- <a href="https://midiclassphp.haoc.wang/mid2rttl.php"><b>midi</b> to rttl converter</a> - Simple binary <b>midi</b> file to RTTL ringtone conversion
+- <a href="https://midiclassphp.haoc.wang/rttl2mid.php">rttl to <b>midi</b> converter</a> - RTTL ringtone to binary <b>midi</b> file conversion
 
 ## Contact
 
