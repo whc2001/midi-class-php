@@ -275,10 +275,13 @@ if ($play){
 <tr bgcolor="#333333"><td colspan=7 style="color:#FFFFFF"><b>Published Mixes</b></td></tr>
 <tr><td>
 <?php
+if (!is_dir('mix')) mkdir('mix');
 $handle=opendir ('mix');
-while (false !== ($file = readdir ($handle)))
-	if ($file!='.' && $file!='..') echo "<a href=\"sequencer.php?mix=$file&plug=$plug\">$file</a><br>\n";
-closedir($handle);
+if (false !== $handle){
+	while (false !== ($file = readdir ($handle)))
+		if ($file!='.' && $file!='..') echo "<a href=\"sequencer.php?mix=$file&plug=$plug\">$file</a><br>\n";
+	closedir($handle);
+}
 ?>
 <br>
 </td></tr></table>
